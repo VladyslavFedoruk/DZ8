@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    transition: all .1s ease-in;
+}
+
+header{
+    background-color: #4A4F56;
+    height: 82px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    }
+
+h1{
+     padding-top: 19px;
+     margin-left: 247px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+     color: #FF8984;
+     margin-bottom: 4px;
+    }
+    
+.paragraph{
+    margin-top: 4px;
+    font-style: normal;
+    color: #FF8984;
+    margin-left: 316px;
+    margin-bottom: 4px;
+    }
+
+body{
+font-family: 'roboto';
+max-width: 793px;
+padding: 0;
+margin: 0 auto;
+box-shadow: 10px 5px 5px black;
+}
+
+.background-list{
+padding-top: 20px;
+background-color: #3B3F45;
+max-height: 0 auto;
+height: 425px;
+}
+
+.list{
+text-align: center;
+width: 534px;
+height: 45px;
+margin-left: 110px;
+margin-right: 110px;
+color: #FFFFFF;
+text-decoration: none;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+max-height: 135px ;
+}
+
+.list li{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: #88839E;
+    margin-left: 20px;
+}
+
+.list li:hover{
+    background-color:#625E77;
+}
+
+.list li:hover{
+    border-bottom:#FFFFFF;
+}
+
+.list li:active{
+    background-color: rgb(116, 82, 82);
+}
+
+.list label{
+    padding-top:12px;
+    padding-left: 16px;
+    padding-bottom:13px;
+}
+
+.list span{
+    font-size: 11px;
+}
+
+input:checked ~ label  {
+    text-decoration: line-through;
+    color: #9B96AC;
+    transition: all 0.2;
+}
+
