@@ -91,8 +91,7 @@ max-height: 135px ;
     font-size: 11px;
 }
 
-/*не понимаю как выставить, чтобы все поле меняло цвет в случае, если его чекнули*/
-/* input:checked ~ label  {
+input:checked ~ label  {
     text-decoration: line-through;
     color: #9B96AC;
     transition: all 0.2;
