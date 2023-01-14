@@ -72,6 +72,8 @@ max-height: 135px ;
 /* не могу добавить верхний и нижний бордер белым при наведении*/
 .list li:hover{
     background-color:#625E77;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 .list li:active{
@@ -90,12 +92,19 @@ max-height: 135px ;
 }
 
 /*не понимаю как выставить, чтобы все поле меняло цвет в случае, если его чекнули*/
-input:checked ~ label  {
+/* input:checked ~ label  {
     text-decoration: line-through;
     color: #9B96AC;
     transition: all 0.2;
     background-color: #7A7593;
 }
+
+/* li:checked ~ label{
+    text-decoration: line-through;
+    color: #9B96AC;
+    transition: all 0.2;
+    background-color: #7A7593;
+}   */
 
 button{
 margin-top: 45px;
